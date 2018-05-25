@@ -1,0 +1,19 @@
+Note:Your Unit Tests Starts
+[ Run      ] test_first_last_name (__main__.NamesTestCase)
+[       OK ] test_first_last_name (__main__.NamesTestCase)
+[ Run      ] test_first_middle_last_name (__main__.NamesTestCase)
+[  FAILED  ] test_first_middle_last_name (__main__.NamesTestCase)
+Traceback (most recent call last):
+  File "test_name_function.py", line 13, in test_first_middle_last_name
+    self.assertEqual(full_name, 'First Middle Last')
+AssertionError: 'First  Middle Last' != 'First Middle Last'
+- First  Middle Last
+?      -
++ First Middle Last
+
+Ran 2 tests in 0.001s
+[ PASSED ] 1 tests
+[ FAILED ] 1 tests,listed below:
+[ FAILED ] test_first_middle_last_name (__main__.NamesTestCase)
+
+1 ERRORED TEST
